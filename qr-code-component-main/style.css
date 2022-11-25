@@ -36,7 +36,7 @@ html {
 img {
     width: 100%;
     height: 100%;
-    border-radius: 30px;
+    border-radius: 3rem;
 }
 
 .content-box {
@@ -45,7 +45,7 @@ img {
     justify-content: center;
     align-items: center;
     background-color: hsl(0, 0%, 100%);
-    border-radius: 30px;
+    border-radius: 3rem;
     max-width: 32rem; 
     padding: 2rem;
 }
