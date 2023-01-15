@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    --primary-cyan: hsl(171, 66%, 44%);
+    --primary-light-blue: hsl(233, 100%, 69%);
+    --neutral-dark-gray-blue: hsl(210, 10%, 33%);
+    --neutral-gray-blue: hsl(201, 11%, 66%);
+}
+
+html {
+    font-size: 10px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 400;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: 600;
+    color: var(--neutral-dark-gray-blue);
+    padding: 0 4rem;
+}
+
+.info {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: var(--neutral-gray-blue);
+    padding: 1rem 1.8rem;
+}
+
+.down-btn {
+    width: 28rem;
+    height: 4.2rem;
+    margin: 1rem 0;
+    border-radius: 2rem;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    color: #ffff;
+    font-size: 1.4rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    background-color: var(--primary-cyan);
+}
+
+.ios {
+    background-color: var(--primary-light-blue);
+}
+
+.container {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+/* Header Section */
+.header {
+    display: flex;
+    height: auto;
+    width: 100%;
+}
+
+.logo-img {
+    display: flex;
+    background: url(./images/bg-header-mobile.png) no-repeat;
+    opacity: 0.7;
+    background-size: cover;
+    height: 20rem;
+    width: 100%;
+}
+
+.img-box {
+    margin: auto;
+    padding-top: 5rem;
+}
+.logo-img img {
+    width: 10rem;
+    height: 10rem;
+}
+
+.header-info {
+    margin-bottom: 3rem;
+}
+
+.header-snippets {
+    margin: 15rem 0 10rem 0;
+}
+/* End Header Section */
+/* Hero Section */
+.hero {
+    display: flex;
+}
+
+.top-img {
+    margin-bottom: 5rem;
+}
+
+.head-img {
+    width: 90%;
+}
+
+.attr-list:last-child {
+    margin-bottom: 15rem;
+
+}
+
+.attribute {
+    margin-bottom: 4rem;
+}
+/* End Hero Section */
+/* Benefit Section */
+.benefit-img {
+    margin: 5rem 0;
+}
+
+.bottom-header {
+    margin-bottom: 5rem;
+}
+
+.benefit-item {
+    margin-bottom: 5rem;
+}
+.item-img {
+    height: 5rem;
+    width: 5rem;
+    margin-bottom: 2rem;
+}
+
+.companies-logo {
+    margin-top: 10rem;
+}
+
+.logo {
+    margin-bottom: 5rem;
+    width: 15rem;
+    height: auto;
+}
+
+.final-info {
+    margin: 5rem 0 2rem 0;
+}
+
+.final-btn {
+    margin-bottom: 15rem;
+}
+/* Benefit Section */
+/* Footer Section */
+
+.footer {
+    display: flex;
+    width: auto;
+    height: auto;
+    padding-top: 3rem;
+    background-color:rgba(236, 233, 233, 0.466);
+}
+
+.footer-img {
+    width: 7rem;
+    height: 7rem;
+    margin-bottom: 5rem;
+}
+
+.footer-list {
+    margin-bottom: 5rem;
+}
+
+.col p {
+    color: #000000;
+    font-weight: 400;
+}
+
+.footer-socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 4rem;
+    padding-bottom: 4rem;
+}
+
+.f-icon {
+    height: 2.5rem;
+    width: 2.5rem;
+    
+}
+/* Footer Section */
