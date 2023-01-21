@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=Karla:wght@400;700&display=swap");
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 9px;
+  font-family: 'Karla', sans-serif;
+  font-weight: 400, 700;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 2.2rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  color: #ffffff;
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: 0.05rem;
+  margin-bottom: 2rem;
+}
+
+p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #e5eff5;
+  line-height: 1.5;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #e5eff5;
+}
+
+.container .grid-box {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+  padding: 3rem;
+}
+
+.container .grid-box .grid-element {
+  padding: 3rem;
+  text-align: left;
+  height: 27rem;
+}
+
+.container .grid-box .item-1 {
+  background-color: #ffffff;
+}
+
+.container .grid-box .item-1 > h1 {
+  color: #2ab2af;
+}
+
+.container .grid-box .item-1 > h2 {
+  color: #c0df34;
+}
+
+.container .grid-box .item-1 > p {
+  color: #98a6bd;
+}
+
+.container .grid-box .item-2 {
+  background-color: #2ab2af;
+}
+
+.container .grid-box .item-2 .dollar {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.container .grid-box .item-2 .grid-btn:hover {
+  opacity: 0.7;
+}
+
+.container .grid-box .item-2 > p {
+  margin-top: 1rem;
+}
+
+.container .grid-box .item-2 > button {
+  background-color: #c0df34;
+  width: 90%;
+  height: 5rem;
+  border: none;
+  margin: 3rem auto 0 auto;
+  border-radius: 0.5rem;
+  text-align: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all ease 0.4s;
+  display: inline-block;
+}
+
+.container .grid-box .item-2 > button > h1 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin: 0;
+}
+
+.container .grid-box .item-3 {
+  background-color: #3bc4c2;
+}
+
+.container .grid-box .item-3 > p {
+  width: 70%;
+}
+
+@media only screen and (min-width: 594px) {
+  .grid-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
+    max-width: 90rem;
+  }
+  .grid-box .grid-element {
+    max-width: 90rem;
+  }
+  .grid-box .item-1 {
+    grid-column: 1 / span 2;
+  }
+  .grid-box .item-1 > h1 {
+    margin: 2rem;
+  }
+  .grid-box .item-1 > h2 {
+    margin: 2rem;
+  }
+  .grid-box .item-1 > p {
+    margin: 2rem;
+  }
+}
