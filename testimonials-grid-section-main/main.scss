@@ -45,10 +45,12 @@ img {
 }
 
 .container {
+    display: grid;
     min-height: 100vh;
     padding: 2rem;
     background-color: $neutral-light-gray;
     justify-content: center;
+    align-items: center;
 }
 
 .hero {
